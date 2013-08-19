@@ -1,0 +1,8 @@
+[pylaivng:fork]
+source = mclinux
+
+[livehelper:current]
+lb.packages = <old> <remove:meta-scientific>
+
+[current]
+build = 106.0
