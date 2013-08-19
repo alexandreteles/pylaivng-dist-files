@@ -1,0 +1,40 @@
+[pylaivng:fork]
+source = semplice
+
+[Distro]
+name = MCLinux
+author = The MCLinux Project
+supported = current current-devel changes-unstable changes-devel-unstable
+currentversion = current
+bzr_update = lp:pylaivng /pylaivng
+type = Debian
+archs = i386
+
+[livehelper:current]
+lb.arch = i386
+lb.locale = pt_BR.UTF-8
+lb.keyboard = br
+lb.kernel = 686-pae
+lb.username = mclinux
+lb.userfullname = MCLinux
+lb.hostname = mclive
+usedata = semplice
+setrepos = true
+lb.aptinsecure = true
+lb.aptsources = false
+lb.mirror = http://ftp.br.debian.org/debian/
+lb.areas = main contrib non-free
+lb.live-packages = live-config live-config-mclinux linstaller linstaller linstaller-config-mclinux linstaller-modules-base linstaller-modules-echo linstaller-frontend-glade
+lb.packages = mclinux-desktop mclinux-office mclinux-multimidia meta-base-mclinux meta-base-graphical meta-codecs meta-scientific meta-system meta-nonfree debian-archive-keyring semplice-archive-keyring deb-multimedia-keyring external-keyring mclinux-archive-keyring
+lb.custopts = --keyring-packages="debian-archive-keyring semplice-archive-keyring deb-multimedia-keyring external-keyring mclinux-archive-keyring"
+lb.syslinuxtheme = semplice-atom
+
+[repo:current]
+debian-multimedia = http://ftp.br.debian.org/debian-multimedia False main False True
+dropbox = http://linux.dropbox.com/debian squeeze main False False
+mclinux = http://repo.linuxeiro.pw/ sid main False False
+repositories = <old> debian-multimedia dropbox mclinux
+
+[current]
+build = 401.0
+
