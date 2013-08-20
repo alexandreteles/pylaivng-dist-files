@@ -31,10 +31,11 @@ lb.syslinuxtheme = semplice-atom
 
 [repo:current]
 arch = amd64
+semplice = http://ufpr.dl.sourceforge.net/project/semplice-linux/archive unstable main,contrib,non-free False True
 debian-multimedia = http://ftp.br.debian.org/debian-multimedia False main False True
 dropbox = http://linux.dropbox.com/debian squeeze main False False
 mclinux = http://repo.linuxeiro.pw/ sid main False False
-repositories = <old> debian-multimedia dropbox mclinux
+repositories = <old> debian-multimedia dropbox mclinux semplice
 
 [current]
 build = 402.0
