@@ -12,6 +12,7 @@ archs = i386
 
 [livehelper:current]
 lb.arch = i386
+lb.bootstrap = syslinux
 lb.locale = pt_BR.UTF-8
 lb.keyboard = br
 lb.kernel = 686-pae
