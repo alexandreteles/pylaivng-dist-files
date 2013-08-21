@@ -13,6 +13,7 @@ archs = amd64
 [livehelper:current]
 lb.kernel = amd64
 lb.arch = amd64
+lb.bootstrap = syslinux
 lb.locale = pt_BR.UTF-8
 lb.keyboard = br
 lb.username = mclinux
