@@ -10,6 +10,9 @@ bzr_update = lp:pylaivng /pylaivng
 type = Debian
 archs = amd64
 
+[livehelper]
+lb.bootstrap = syslinux
+
 [livehelper:current]
 lb.kernel = amd64
 lb.arch = amd64

@@ -10,6 +10,9 @@ bzr_update = lp:pylaivng /pylaivng
 type = Debian
 archs = i386
 
+[livehelper]
+lb.bootstrap = syslinux
+
 [livehelper:current]
 lb.arch = i386
 lb.bootstrap = syslinux
